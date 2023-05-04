@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quizz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container1">
+        <h1 class="h1">Welcome To Your Quizz Application
+        </h1>
+        <span id="welcome"></span>
+        <div class="time">
+            <span id="min">00</span>
+            <span>:</span>
+            <span id="sec">00</span>
+        </div>
+    </div>
+
+    <div class="body">
+
+
+        <div class="container2">
+            <div class="question">
+                <h2 id="quebox">Q1. What is the capital of Pakistan</h2>
+            </div>
+            <div class="option">
+                <input type="radio" name="option" id="optiona" value="a" class="options">
+                <label for="optiona">Option 1</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="option" id="optionb" value="b" class="options">
+                <label for="optionb">Option 2</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="option" id="optionc" value="c" class="options">
+                <label for="optionc">Option 3</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="option" id="optiond" value="d" class="options">
+                <label for="optiond">Option 4</label>
+            </div>
+            <button class="submit" onclick="submitQuizz()">Submit</button>
+        </div>
+
+    </div>
+
+    <script src="quiz.js"></script>
+   
+</body>
+
+</html>
